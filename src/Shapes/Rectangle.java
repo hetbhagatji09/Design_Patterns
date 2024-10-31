@@ -18,4 +18,12 @@ public class Rectangle extends Shape implements Rotatable{
     public double area() {
         return length*width;
     }
+
+    @Override
+    public String toString() {
+        return "Rectangle{" +
+                "length=" + length +
+                ", width=" + width +
+                '}';
+    }
 }
