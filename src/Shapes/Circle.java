@@ -5,10 +5,11 @@ public class Circle  extends Shape implements Rollable{
 
     public Circle(float degree) {
         this.degree = degree;
+        System.out.println("Circle is called");
     }
 
     @Override
-    public void roll(float degree) {
+    public void roll() {
         System.out.println("circle is rollable");
     }
 
