@@ -14,6 +14,7 @@ public class ToDoDirector {
         todos.add(
                 new ToDoBuilder().withId(2)
                         .withTitle("Attendence")
+                        .withStatus("pending")
                         .withcompleted(true)
                         .withDescreption("I am Going to Collage")
                         .build()
