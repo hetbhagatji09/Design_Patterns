@@ -2,10 +2,11 @@ package Builder;
 
 public class ToDoBuilder {
     private int id;
-    private String title;
-    private String descreption;
-    private String status;
-    private boolean completed;
+    private String title="ToDo title";
+    private String descreption="ToDo Descreption";
+    private String status="pending";
+    private boolean completed=false;
+
 
     public ToDoBuilder withTitle(String title){
         this.title=title;
