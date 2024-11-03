@@ -4,7 +4,7 @@ public class NameIterator implements Iterator{
     int index;
     @Override
     public boolean hasNext() {
-        if(index<new NameRepository().names.length){
+        if(index<new NameRepository().names.size()){
 
             return true;
         }
@@ -14,7 +14,7 @@ public class NameIterator implements Iterator{
     @Override
     public Object next() {
         if(this.hasNext()){
-            return new NameRepository().names[index++];
+            return new NameRepository().names.get(index++);
         }
         return null;
     }
