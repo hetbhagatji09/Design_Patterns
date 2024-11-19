@@ -7,6 +7,7 @@ public class CheeseSpread extends BreadDecorator{
 
     @Override
     public int cost() {
+        System.out.println("additional cost is 20 ruppes for cheese");
         return breadItem.cost()+20;
     }
 }
